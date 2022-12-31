@@ -1,13 +1,43 @@
-function sumAndMultiply(a, b){
+const personOne = {
 
-   return [a + b, a * b, a / b]
+   name: 'Mike',
+
+   age: 20,
+
+   address: {
+
+      city: 'Nairobi',
+
+      subCounty: 'Kasarani'
+
+   }
 
 }
 
-const [ sum, multiply, division = 'No Division' ] = sumAndMultiply(2, 3)
 
-console.log(sum)
 
-console.log(multiply)
 
-console.log(division)
+const personTwo = {
+
+   name: 'Brian',
+
+   age: 27,
+
+   address: {
+
+      city: 'Mombasa',
+
+      subCounty: 'Nyali'
+
+   }
+
+}
+
+
+
+
+const { name, age } = personTwo
+
+console.log(name)
+
+console.log(age)
