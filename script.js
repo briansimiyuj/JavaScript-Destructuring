@@ -19,9 +19,9 @@ const personOne = {
 
 const personTwo = {
 
-   name: 'Brian',
-
    age: 27,
+
+   favoriteFood: 'Chapati',
 
    address: {
 
@@ -36,8 +36,10 @@ const personTwo = {
 
 
 
-const { name, age } = personTwo
+const { name: firstName = 'John', age, favoriteFood = 'Rice' } = personTwo
 
-console.log(name)
+console.log(firstName)
 
 console.log(age)
+
+console.log(favoriteFood)
