@@ -16,9 +16,9 @@ const personOne = {
 
 
 
-function printUser(user){
+function printUser({ name, age }){
 
-   console.log(`Name is ${user.name}. Age is ${user.age}`)
+   console.log(`Name is ${name}. Age is ${age}`)
 
 }
 
