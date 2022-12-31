@@ -36,10 +36,6 @@ const personTwo = {
 
 
 
-const { name: firstName = 'John', age, favoriteFood = 'Rice' } = personTwo
+const { name: firstName = 'John', age, ...rest } = personTwo
 
-console.log(firstName)
-
-console.log(age)
-
-console.log(favoriteFood)
+console.log(rest)
