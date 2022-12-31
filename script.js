@@ -16,18 +16,10 @@ const personOne = {
 
 
 
+function printUser(user){
 
-const personTwo = {
-
-   age: 27,
-
-   favoriteFood: 'Chapati'
+   console.log(`Name is ${user.name}. Age is ${user.age}`)
 
 }
 
-
-
-
-const personThree = { ...personOne, ...personTwo }
-
-console.log(personThree)
+printUser(personOne)
