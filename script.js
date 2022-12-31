@@ -4,6 +4,8 @@ function sumAndMultiply(a, b){
 
 }
 
-const array = sumAndMultiply(2, 3)
+const [ sum, multiply ] = sumAndMultiply(2, 3)
 
-console.log(array)
+console.log(sum)
+
+console.log(multiply)
