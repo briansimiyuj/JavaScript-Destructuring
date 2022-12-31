@@ -21,21 +21,13 @@ const personTwo = {
 
    age: 27,
 
-   favoriteFood: 'Chapati',
-
-   address: {
-
-      city: 'Mombasa',
-
-      subCounty: 'Nyali'
-
-   }
+   favoriteFood: 'Chapati'
 
 }
 
 
 
 
-const { name: firstName = 'John', age, address: { town = 'Nyali Town' } } = personTwo
+const personThree = { ...personOne, ...personTwo }
 
-console.log(town)
+console.log(personThree)
