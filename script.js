@@ -1,10 +1,9 @@
-const alphabets = ['A', 'B', 'C', 'D', 'E', 'F']
+function sumAndMultiply(a, b){
 
-const numbers = ['1', '2', '3', '4', '5', '6']
+   return [a + b, a *b]
 
-const [ a, , c, ...rest ] = alphabets
+}
 
+const array = sumAndMultiply(2, 3)
 
-const newArray = [...alphabets, ...numbers]
-
-console.log(newArray)
+console.log(array)
