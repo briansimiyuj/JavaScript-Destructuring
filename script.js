@@ -36,6 +36,6 @@ const personTwo = {
 
 
 
-const { name: firstName = 'John', age, ...rest } = personTwo
+const { name: firstName = 'John', age, address: { town = 'Nyali Town' } } = personTwo
 
-console.log(rest)
+console.log(town)
