@@ -4,8 +4,7 @@ const numbers = ['1', '2', '3', '4', '5', '6']
 
 const [ a, , c, ...rest ] = alphabets
 
-console.log(a)
 
-console.log(c)
+const newArray = [...alphabets, ...numbers]
 
-console.log(rest)
+console.log(newArray)
